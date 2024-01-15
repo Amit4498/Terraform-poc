@@ -6,6 +6,8 @@ Install terraform into windows : https://developer.hashicorp.com/terraform/downl
 	4. Download Git bash : https://git-scm.com/download/win  : Standalone installer  => 64-bit Git for Windows Setup
 
 
+Basic info : https://developer.hashicorp.com/terraform/tutorials/certification-associate-tutorials-003/init
+
 
 Customize Terraform Configuration with Variables
 :: https://developer.hashicorp.com/terraform/tutorials/certification-associate-tutorials-003/variables#assign-values-to-variables

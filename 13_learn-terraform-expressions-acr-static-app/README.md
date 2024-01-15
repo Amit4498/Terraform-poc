@@ -20,6 +20,7 @@ The syntax of a conditional expression first defines the condition, then the out
 
 Use a splat expression
 
-The aws_instance resource could now have a count value of 3. To return the private IP addresses of all of the instances, you will use a splat * expression to create an output value.
+The aws_instance resource could now have a count value of 3. 
+To return the private IP addresses of all of the instances, you will use a splat * expression to create an output value.
 The splat expression captures all objects in a list that share an attribute. The special * symbol iterates over all of the elements of a given list and returns information based on the shared attribute you define.
 Without the splat expression, Terraform would not be able to output the entire array of your instances and would only return the first item in the array.
